@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payments - BDU Library Management System</title>
+    <link rel="stylesheet" href="admin-styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Payments</h1>
+        <div class="search-container">
+            <input type="text" id="payment-search" placeholder="Search payments...">
+            <button id="payment-search-button">Search</button>
+        </div>
+        <table id="payment-table">
+            <thead>
+                <tr>
+                    <th>Payment ID</th>
+                    <th>User</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Payment data will be populated here -->
+            </tbody>
+        </table>
+        <button id="add-payment-button">Add Payment</button>
+        <a href="admin-panel.html" class="back-button">Back to Admin Panel</a>
+    </div>
+    <script src="admin-script.js"></script>
+</body>
+</html>
